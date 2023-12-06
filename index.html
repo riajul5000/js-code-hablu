@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style src="style.css"></style>
+    <script>
+        function myFun(){
+            document.getElementById("demo1").innerHTML="I hate you";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <p id="demo">I'm javaScripts Developer</p>
+        <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello Riajul"'>Click Me!</button>
+        <h6 id="onThe">I'm Developer</h6>
+        <button type="button" onclick="document.getElementById('onThe').style.fontSize='35px'">click Me!</button>
+        <button type="button" onclick="document.getElementById('onThe').style.color='blue'">click Me!</button><br>
+
+        <p id="up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum esse laborum repudiandae iure eos dignissimos possimus aliquid enim quidem odit.</p>
+        <button type="button" onclick="document.getElementById('up').style.display='none'">Click Here!</button><br>
+
+        <p id="name" style="display:none">Hello Riajul!</p>
+        <button type="button" onclick="document.getElementById('name').style.display='block'">click this</button><br>
+        
+        <p id="demo1">I love you</p>
+        <button type="button" onclick="myFun()">Click Me!</button><br>
+
+        <p id="demo2">I hate you</p>
+        <button type="button" onclick="myFun1()">Try It!</button><br>
+
+        <p id="demo3"></p>
+        <script>
+            document.getElementById("demo3").innerHTML= 40 + 40 ;
+        </script>
+
+        <script>
+            document.write(50 + 50);
+        </script> <br>
+
+        <!-- <script>
+            window.alert("you love me");
+        </script> -->
+
+        <button type="button" onclick="window.print()">Try this</button><br>
+
+        <button type="button" onclick="document.write(5+6)">Try this</button>
+
+        <p id="demo4"></p>
+        <script>
+            let  x,y,z;
+            x = 5 ;
+            y = 6 ;
+            z = x + y;
+            document.getElementById("demo4").innerHTML = "the value of " + z +"";
+        </script>
+
+        <p>Your age is <span id="demo5"></span> </p>
+        
+
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+
+
+    <script src="style.js"></script>
+</body>
+</html>
