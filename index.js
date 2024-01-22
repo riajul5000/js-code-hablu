@@ -10,6 +10,9 @@ var numType = 40;
 var boolType = true;
 // console.log(typeof boolType);
 
+var youLoveMe = true;
+console.log(typeof youLoveMe);
+
 var lifeStory = " I love you but You don't Love me Why ";
 // console.log(lifeStory.toLowerCase());
 
@@ -55,4 +58,5 @@ var lotary = Math.random();
 // console.log(lotary); 
 
 var fish = Math.random() * 1000;
-console.log(fish); 
+// console.log(fish); 
+
