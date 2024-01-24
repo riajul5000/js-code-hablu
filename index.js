@@ -11,10 +11,13 @@ var boolType = true;
 // console.log(typeof boolType);
 
 var youLoveMe = true;
-console.log(typeof youLoveMe);
+// console.log(typeof youLoveMe);
 
 var lifeStory = " I love you but You don't Love me Why ";
 // console.log(lifeStory.toLowerCase());
+
+var storyItaly = 'Italy most beautiful country in the world'
+// console.log(storyItaly.toUpperCase());
 
 
 var myFriend = "Alex , stephen , Tom , Tom Hanks, Rae";
