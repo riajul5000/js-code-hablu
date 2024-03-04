@@ -35,3 +35,4 @@ var carName1 = ["Bmw", "kia", "ferrari", "tesla", "lamborghini"];
 var carName2 = ["Bmw", "kia", "ferrari", "tesla", "lamborghini"];
 carName2.splice(2,3, "Maserati");
 console.log(carName2);
+
